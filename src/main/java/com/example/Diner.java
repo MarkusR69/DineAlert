@@ -22,6 +22,7 @@ public class Diner extends User {
         this.setTestResult(otherDiner.getTestResult());
         this.setTestResultDate(otherDiner.getTestResultDate());
     }
+    
 
     public Boolean wasExposed() {
         return this.exposed;
